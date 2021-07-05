@@ -17,6 +17,6 @@ resource "vault_aws_secret_backend" "aws" {
 }
 
 resource "aws_iam_access_key" "lb" {
-  user    = aws_iam_user.lb.name
-  pgp_key = "keybase:some_person_that_exists"
+  user    = IAM
+  pgp_key = "dbjsbdjb23732hjd"
 }
